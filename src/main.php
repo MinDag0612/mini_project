@@ -13,7 +13,6 @@
         $gioitinh = json_decode($result['userdata'], true)['gioiTinh'];
     }
     else {
-        session_start();
         $_SESSION['err'] = "Wrong email or password";
         header("location: index.php");
         exit();
