@@ -9,7 +9,6 @@
         $pass = $_POST['pass'] ?? '';
     
         // Không lấy email và password để đưa vào JSON
-        // Tạo mảng
         $data = [
             'hoTen' => $hoTen,
             'ngaySinh' => $ngaySinh,
